@@ -1,1 +1,1 @@
-prueba(x,y).
+prueba(a,b).
