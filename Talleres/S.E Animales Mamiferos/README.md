@@ -1,3 +1,3 @@
 Red de inferencia
 <br>
-https://github.com/aalejoz25/IA2.git
+https://drive.google.com/file/d/1kmaT-rbGpCcPebsEeog7fr8coVFgI95Y/view?usp=sharing
