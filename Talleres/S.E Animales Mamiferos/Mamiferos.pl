@@ -15,13 +15,22 @@ verifica(desconocido).
 
 /*Verificacion de las caracteristicas del animal*/
 
-% Primero se verifica si el usuario no ha respondido anteriormente a la
+% Primero se comprueba si el usuario no ha respondido anteriormente a la
 % pregunta
-onza:- comprobar(tiene_color_leonado),
+onza:- es_carnivoro,
+       comprobar(tiene_color_leonado),
        comprobar(tiene_manchas_oscuras).
 tigre:- true.
 
-%Se pregunta al usuario en caso de que no se haya
+
+es_mamifero:-comprobar(tiene_pelo),
+             comprobar(da_leche).
+es_carnivoro:-es_mamifero,
+              comprobar(come_carne).
+
+
+% Se pregunta al usuario en caso de que no se haya agregado la pregunta
+% a la base de reglas
 :- dynamic si/1, no/1.
 
 preguntar(P):-
