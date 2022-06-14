@@ -1,11 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="1b01920e-0f86-49f4-a41e-f38a31379b64" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Ejercicios Corte 1/Wine Dataset KD Tree/.ipynb_checkpoints/Wine Dataset-checkpoint.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/Ejercicios Corte 1/Wine Dataset KD Tree/.ipynb_checkpoints/Wine Dataset-checkpoint.ipynb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Ejercicios Corte 1/Wine Dataset KD Tree/Wine Dataset.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/Ejercicios Corte 1/Wine Dataset KD Tree/Wine Dataset.ipynb" afterDir="false" />
-    </list>
+    <list default="true" id="1b01920e-0f86-49f4-a41e-f38a31379b64" name="Default Changelist" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -102,7 +98,7 @@
       <workItem from="1654835531283" duration="2373000" />
       <workItem from="1654851957800" duration="611000" />
       <workItem from="1654852847691" duration="1606000" />
-      <workItem from="1654885552449" duration="789000" />
+      <workItem from="1654885552449" duration="913000" />
     </task>
     <task id="LOCAL-00001" summary="Se organiza el repositorio y se crea proyecto wine dataset">
       <created>1654834630587</created>
@@ -146,7 +142,14 @@
       <option name="project" value="LOCAL" />
       <updated>1654862198481</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="Se termina la prueba en reescritura, se usa precision y exactitud">
+      <created>1654892299091</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1654892299091</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -170,7 +173,8 @@
     <MESSAGE value="Se hallan los umbrales para cada nodo del arbol" />
     <MESSAGE value="X" />
     <MESSAGE value="Se termina arbol KD, falta prueba en reescritura" />
-    <option name="LAST_COMMIT_MESSAGE" value="Se termina arbol KD, falta prueba en reescritura" />
+    <MESSAGE value="Se termina la prueba en reescritura, se usa precision y exactitud" />
+    <option name="LAST_COMMIT_MESSAGE" value="Se termina la prueba en reescritura, se usa precision y exactitud" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/IA2$IA2.coverage" NAME="IA2 Coverage Results" MODIFIED="1654845509558" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
