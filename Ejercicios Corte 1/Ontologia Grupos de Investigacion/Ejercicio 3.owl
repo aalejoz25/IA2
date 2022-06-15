@@ -1,0 +1,1097 @@
+<?xml version="1.0"?>
+<rdf:RDF xmlns="http://www.semanticweb.org/neraky/ontologies/2022/5/untitled-ontology-3#"
+     xml:base="http://www.semanticweb.org/neraky/ontologies/2022/5/untitled-ontology-3"
+     xmlns:owl="http://www.w3.org/2002/07/owl#"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:xml="http://www.w3.org/XML/1998/namespace"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#">
+    <owl:Ontology rdf:about="http://www.semanticweb.org/neraky/ontologies/2022/5/untitled-ontology-3">
+        <rdfs:comment>Ejercicio 3</rdfs:comment>
+    </owl:Ontology>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Object Properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.semanticweb.org/neraky/ontologies/2022/5/untitled-ontology-3#Investiga -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/neraky/ontologies/2022/5/untitled-ontology-3#Investiga">
+        <owl:inverseOf rdf:resource="http://www.semanticweb.org/neraky/ontologies/2022/5/untitled-ontology-3#es_investigado_por"/>
+        <rdfs:domain>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/neraky/ontologies/2022/5/untitled-ontology-3#Investiga"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/neraky/ontologies/2022/5/untitled-ontology-3#ARCO_SES"/>
+            </owl:Restriction>
+        </rdfs:domain>
+        <rdfs:domain>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/neraky/ontologies/2022/5/untitled-ontology-3#Investiga"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/neraky/ontologies/2022/5/untitled-ontology-3#ARQUISOFT"/>
+            </owl:Restriction>
+        </rdfs:domain>
+        <rdfs:domain>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/neraky/ontologies/2022/5/untitled-ontology-3#Investiga"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/neraky/ontologies/2022/5/untitled-ontology-3#BIOINGENIRIAUD"/>
+            </owl:Restriction>
+        </rdfs:domain>
+        <rdfs:domain>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/neraky/ontologies/2022/5/untitled-ontology-3#Investiga"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/neraky/ontologies/2022/5/untitled-ontology-3#BIONANOTECNOLOGIA"/>
+            </owl:Restriction>
+        </rdfs:domain>
+        <rdfs:domain>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/neraky/ontologies/2022/5/untitled-ontology-3#Investiga"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/neraky/ontologies/2022/5/untitled-ontology-3#COMPLEXUD"/>
+            </owl:Restriction>
+        </rdfs:domain>
+        <rdfs:domain>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/neraky/ontologies/2022/5/untitled-ontology-3#Investiga"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/neraky/ontologies/2022/5/untitled-ontology-3#DIMSI"/>
+            </owl:Restriction>
+        </rdfs:domain>
+        <rdfs:domain>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/neraky/ontologies/2022/5/untitled-ontology-3#Investiga"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/neraky/ontologies/2022/5/untitled-ontology-3#ECAES_UDFI"/>
+            </owl:Restriction>
+        </rdfs:domain>
+        <rdfs:domain>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/neraky/ontologies/2022/5/untitled-ontology-3#Investiga"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/neraky/ontologies/2022/5/untitled-ontology-3#GCEM"/>
+            </owl:Restriction>
+        </rdfs:domain>
+        <rdfs:domain>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/neraky/ontologies/2022/5/untitled-ontology-3#Investiga"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/neraky/ontologies/2022/5/untitled-ontology-3#GEFEM"/>
+            </owl:Restriction>
+        </rdfs:domain>
+        <rdfs:domain>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/neraky/ontologies/2022/5/untitled-ontology-3#Investiga"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/neraky/ontologies/2022/5/untitled-ontology-3#GEIT"/>
+            </owl:Restriction>
+        </rdfs:domain>
+        <rdfs:domain>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/neraky/ontologies/2022/5/untitled-ontology-3#Investiga"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/neraky/ontologies/2022/5/untitled-ontology-3#GEOANALISIS"/>
+            </owl:Restriction>
+        </rdfs:domain>
+        <rdfs:domain>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/neraky/ontologies/2022/5/untitled-ontology-3#Investiga"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/neraky/ontologies/2022/5/untitled-ontology-3#GESDATOS"/>
+            </owl:Restriction>
+        </rdfs:domain>
+        <rdfs:domain>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/neraky/ontologies/2022/5/untitled-ontology-3#Investiga"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/neraky/ontologies/2022/5/untitled-ontology-3#GESETIC"/>
+            </owl:Restriction>
+        </rdfs:domain>
+        <rdfs:domain>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/neraky/ontologies/2022/5/untitled-ontology-3#Investiga"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/neraky/ontologies/2022/5/untitled-ontology-3#GICALYT"/>
+            </owl:Restriction>
+        </rdfs:domain>
+        <rdfs:domain>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/neraky/ontologies/2022/5/untitled-ontology-3#Investiga"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/neraky/ontologies/2022/5/untitled-ontology-3#GICOECOL"/>
+            </owl:Restriction>
+        </rdfs:domain>
+        <rdfs:domain>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/neraky/ontologies/2022/5/untitled-ontology-3#Investiga"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/neraky/ontologies/2022/5/untitled-ontology-3#GICOGE"/>
+            </owl:Restriction>
+        </rdfs:domain>
+        <rdfs:domain>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/neraky/ontologies/2022/5/untitled-ontology-3#Investiga"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/neraky/ontologies/2022/5/untitled-ontology-3#GICOSO"/>
+            </owl:Restriction>
+        </rdfs:domain>
+        <rdfs:domain>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/neraky/ontologies/2022/5/untitled-ontology-3#Investiga"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/neraky/ontologies/2022/5/untitled-ontology-3#GIGA"/>
+            </owl:Restriction>
+        </rdfs:domain>
+        <rdfs:domain>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/neraky/ontologies/2022/5/untitled-ontology-3#Investiga"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/neraky/ontologies/2022/5/untitled-ontology-3#GIIRA"/>
+            </owl:Restriction>
+        </rdfs:domain>
+        <rdfs:domain>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/neraky/ontologies/2022/5/untitled-ontology-3#Investiga"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/neraky/ontologies/2022/5/untitled-ontology-3#GISE3"/>
+            </owl:Restriction>
+        </rdfs:domain>
+        <rdfs:domain>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/neraky/ontologies/2022/5/untitled-ontology-3#Investiga"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/neraky/ontologies/2022/5/untitled-ontology-3#GITEM"/>
+            </owl:Restriction>
+        </rdfs:domain>
+        <rdfs:domain>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/neraky/ontologies/2022/5/untitled-ontology-3#Investiga"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/neraky/ontologies/2022/5/untitled-ontology-3#GITICS"/>
+            </owl:Restriction>
+        </rdfs:domain>
+        <rdfs:domain>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/neraky/ontologies/2022/5/untitled-ontology-3#Investiga"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/neraky/ontologies/2022/5/untitled-ontology-3#GITUD"/>
+            </owl:Restriction>
+        </rdfs:domain>
+        <rdfs:domain>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/neraky/ontologies/2022/5/untitled-ontology-3#Investiga"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/neraky/ontologies/2022/5/untitled-ontology-3#GRECO"/>
+            </owl:Restriction>
+        </rdfs:domain>
+        <rdfs:domain>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/neraky/ontologies/2022/5/untitled-ontology-3#Investiga"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/neraky/ontologies/2022/5/untitled-ontology-3#IDEAS"/>
+            </owl:Restriction>
+        </rdfs:domain>
+        <rdfs:domain>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/neraky/ontologies/2022/5/untitled-ontology-3#Investiga"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/neraky/ontologies/2022/5/untitled-ontology-3#INTECSSE"/>
+            </owl:Restriction>
+        </rdfs:domain>
+        <rdfs:domain>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/neraky/ontologies/2022/5/untitled-ontology-3#Investiga"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/neraky/ontologies/2022/5/untitled-ontology-3#INTERNET_INTELIGENTE"/>
+            </owl:Restriction>
+        </rdfs:domain>
+        <rdfs:domain>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/neraky/ontologies/2022/5/untitled-ontology-3#Investiga"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/neraky/ontologies/2022/5/untitled-ontology-3#INVID"/>
+            </owl:Restriction>
+        </rdfs:domain>
+        <rdfs:domain>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/neraky/ontologies/2022/5/untitled-ontology-3#Investiga"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/neraky/ontologies/2022/5/untitled-ontology-3#LAMIC"/>
+            </owl:Restriction>
+        </rdfs:domain>
+        <rdfs:domain>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/neraky/ontologies/2022/5/untitled-ontology-3#Investiga"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/neraky/ontologies/2022/5/untitled-ontology-3#LASER"/>
+            </owl:Restriction>
+        </rdfs:domain>
+        <rdfs:domain>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/neraky/ontologies/2022/5/untitled-ontology-3#Investiga"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/neraky/ontologies/2022/5/untitled-ontology-3#LIDER"/>
+            </owl:Restriction>
+        </rdfs:domain>
+        <rdfs:domain>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/neraky/ontologies/2022/5/untitled-ontology-3#Investiga"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/neraky/ontologies/2022/5/untitled-ontology-3#LIFAE"/>
+            </owl:Restriction>
+        </rdfs:domain>
+        <rdfs:domain>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/neraky/ontologies/2022/5/untitled-ontology-3#Investiga"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/neraky/ontologies/2022/5/untitled-ontology-3#MIS"/>
+            </owl:Restriction>
+        </rdfs:domain>
+        <rdfs:domain>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/neraky/ontologies/2022/5/untitled-ontology-3#Investiga"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/neraky/ontologies/2022/5/untitled-ontology-3#MMAI"/>
+            </owl:Restriction>
+        </rdfs:domain>
+        <rdfs:domain>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/neraky/ontologies/2022/5/untitled-ontology-3#Investiga"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/neraky/ontologies/2022/5/untitled-ontology-3#MULTI"/>
+            </owl:Restriction>
+        </rdfs:domain>
+        <rdfs:domain>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/neraky/ontologies/2022/5/untitled-ontology-3#Investiga"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/neraky/ontologies/2022/5/untitled-ontology-3#NIDE"/>
+            </owl:Restriction>
+        </rdfs:domain>
+        <rdfs:domain>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/neraky/ontologies/2022/5/untitled-ontology-3#Investiga"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/neraky/ontologies/2022/5/untitled-ontology-3#REABCO"/>
+            </owl:Restriction>
+        </rdfs:domain>
+        <rdfs:domain>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/neraky/ontologies/2022/5/untitled-ontology-3#Investiga"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/neraky/ontologies/2022/5/untitled-ontology-3#TEHSICUD"/>
+            </owl:Restriction>
+        </rdfs:domain>
+        <rdfs:domain>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/neraky/ontologies/2022/5/untitled-ontology-3#Investiga"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/neraky/ontologies/2022/5/untitled-ontology-3#VIRTUS"/>
+            </owl:Restriction>
+        </rdfs:domain>
+        <rdfs:domain>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/neraky/ontologies/2022/5/untitled-ontology-3#Investiga"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/neraky/ontologies/2022/5/untitled-ontology-3#ZAITA"/>
+            </owl:Restriction>
+        </rdfs:domain>
+        <rdfs:range>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/neraky/ontologies/2022/5/untitled-ontology-3#Investiga"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/neraky/ontologies/2022/5/untitled-ontology-3#Investigacion"/>
+            </owl:Restriction>
+        </rdfs:range>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/neraky/ontologies/2022/5/untitled-ontology-3#comparte_descubrimiento -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/neraky/ontologies/2022/5/untitled-ontology-3#comparte_descubrimiento">
+        <rdfs:domain>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/neraky/ontologies/2022/5/untitled-ontology-3#comparte_descubrimiento"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/neraky/ontologies/2022/5/untitled-ontology-3#Ingenieria"/>
+            </owl:Restriction>
+        </rdfs:domain>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/neraky/ontologies/2022/5/untitled-ontology-3#crea_conocimiento -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/neraky/ontologies/2022/5/untitled-ontology-3#crea_conocimiento">
+        <rdfs:domain>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/neraky/ontologies/2022/5/untitled-ontology-3#Investiga"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/neraky/ontologies/2022/5/untitled-ontology-3#ARCO_SES"/>
+            </owl:Restriction>
+        </rdfs:domain>
+        <rdfs:domain>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/neraky/ontologies/2022/5/untitled-ontology-3#Investiga"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/neraky/ontologies/2022/5/untitled-ontology-3#ARQUISOFT"/>
+            </owl:Restriction>
+        </rdfs:domain>
+        <rdfs:domain>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/neraky/ontologies/2022/5/untitled-ontology-3#Investiga"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/neraky/ontologies/2022/5/untitled-ontology-3#BIOINGENIRIAUD"/>
+            </owl:Restriction>
+        </rdfs:domain>
+        <rdfs:domain>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/neraky/ontologies/2022/5/untitled-ontology-3#Investiga"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/neraky/ontologies/2022/5/untitled-ontology-3#BIONANOTECNOLOGIA"/>
+            </owl:Restriction>
+        </rdfs:domain>
+        <rdfs:domain>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/neraky/ontologies/2022/5/untitled-ontology-3#Investiga"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/neraky/ontologies/2022/5/untitled-ontology-3#COMPLEXUD"/>
+            </owl:Restriction>
+        </rdfs:domain>
+        <rdfs:domain>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/neraky/ontologies/2022/5/untitled-ontology-3#Investiga"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/neraky/ontologies/2022/5/untitled-ontology-3#DIMSI"/>
+            </owl:Restriction>
+        </rdfs:domain>
+        <rdfs:domain>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/neraky/ontologies/2022/5/untitled-ontology-3#Investiga"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/neraky/ontologies/2022/5/untitled-ontology-3#ECAES_UDFI"/>
+            </owl:Restriction>
+        </rdfs:domain>
+        <rdfs:domain>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/neraky/ontologies/2022/5/untitled-ontology-3#Investiga"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/neraky/ontologies/2022/5/untitled-ontology-3#GCEM"/>
+            </owl:Restriction>
+        </rdfs:domain>
+        <rdfs:domain>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/neraky/ontologies/2022/5/untitled-ontology-3#Investiga"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/neraky/ontologies/2022/5/untitled-ontology-3#GEFEM"/>
+            </owl:Restriction>
+        </rdfs:domain>
+        <rdfs:domain>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/neraky/ontologies/2022/5/untitled-ontology-3#Investiga"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/neraky/ontologies/2022/5/untitled-ontology-3#GEIT"/>
+            </owl:Restriction>
+        </rdfs:domain>
+        <rdfs:domain>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/neraky/ontologies/2022/5/untitled-ontology-3#Investiga"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/neraky/ontologies/2022/5/untitled-ontology-3#GEOANALISIS"/>
+            </owl:Restriction>
+        </rdfs:domain>
+        <rdfs:domain>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/neraky/ontologies/2022/5/untitled-ontology-3#Investiga"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/neraky/ontologies/2022/5/untitled-ontology-3#GESDATOS"/>
+            </owl:Restriction>
+        </rdfs:domain>
+        <rdfs:domain>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/neraky/ontologies/2022/5/untitled-ontology-3#Investiga"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/neraky/ontologies/2022/5/untitled-ontology-3#GESETIC"/>
+            </owl:Restriction>
+        </rdfs:domain>
+        <rdfs:domain>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/neraky/ontologies/2022/5/untitled-ontology-3#Investiga"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/neraky/ontologies/2022/5/untitled-ontology-3#GICALYT"/>
+            </owl:Restriction>
+        </rdfs:domain>
+        <rdfs:domain>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/neraky/ontologies/2022/5/untitled-ontology-3#Investiga"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/neraky/ontologies/2022/5/untitled-ontology-3#GICOECOL"/>
+            </owl:Restriction>
+        </rdfs:domain>
+        <rdfs:domain>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/neraky/ontologies/2022/5/untitled-ontology-3#Investiga"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/neraky/ontologies/2022/5/untitled-ontology-3#GICOGE"/>
+            </owl:Restriction>
+        </rdfs:domain>
+        <rdfs:domain>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/neraky/ontologies/2022/5/untitled-ontology-3#Investiga"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/neraky/ontologies/2022/5/untitled-ontology-3#GICOSO"/>
+            </owl:Restriction>
+        </rdfs:domain>
+        <rdfs:domain>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/neraky/ontologies/2022/5/untitled-ontology-3#Investiga"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/neraky/ontologies/2022/5/untitled-ontology-3#GIGA"/>
+            </owl:Restriction>
+        </rdfs:domain>
+        <rdfs:domain>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/neraky/ontologies/2022/5/untitled-ontology-3#Investiga"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/neraky/ontologies/2022/5/untitled-ontology-3#GIIRA"/>
+            </owl:Restriction>
+        </rdfs:domain>
+        <rdfs:domain>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/neraky/ontologies/2022/5/untitled-ontology-3#Investiga"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/neraky/ontologies/2022/5/untitled-ontology-3#GISE3"/>
+            </owl:Restriction>
+        </rdfs:domain>
+        <rdfs:domain>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/neraky/ontologies/2022/5/untitled-ontology-3#Investiga"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/neraky/ontologies/2022/5/untitled-ontology-3#GITEM"/>
+            </owl:Restriction>
+        </rdfs:domain>
+        <rdfs:domain>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/neraky/ontologies/2022/5/untitled-ontology-3#Investiga"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/neraky/ontologies/2022/5/untitled-ontology-3#GITICS"/>
+            </owl:Restriction>
+        </rdfs:domain>
+        <rdfs:domain>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/neraky/ontologies/2022/5/untitled-ontology-3#Investiga"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/neraky/ontologies/2022/5/untitled-ontology-3#GITUD"/>
+            </owl:Restriction>
+        </rdfs:domain>
+        <rdfs:domain>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/neraky/ontologies/2022/5/untitled-ontology-3#Investiga"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/neraky/ontologies/2022/5/untitled-ontology-3#GRECO"/>
+            </owl:Restriction>
+        </rdfs:domain>
+        <rdfs:domain>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/neraky/ontologies/2022/5/untitled-ontology-3#Investiga"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/neraky/ontologies/2022/5/untitled-ontology-3#IDEAS"/>
+            </owl:Restriction>
+        </rdfs:domain>
+        <rdfs:domain>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/neraky/ontologies/2022/5/untitled-ontology-3#Investiga"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/neraky/ontologies/2022/5/untitled-ontology-3#INTECSSE"/>
+            </owl:Restriction>
+        </rdfs:domain>
+        <rdfs:domain>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/neraky/ontologies/2022/5/untitled-ontology-3#Investiga"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/neraky/ontologies/2022/5/untitled-ontology-3#INTERNET_INTELIGENTE"/>
+            </owl:Restriction>
+        </rdfs:domain>
+        <rdfs:domain>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/neraky/ontologies/2022/5/untitled-ontology-3#Investiga"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/neraky/ontologies/2022/5/untitled-ontology-3#INVID"/>
+            </owl:Restriction>
+        </rdfs:domain>
+        <rdfs:domain>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/neraky/ontologies/2022/5/untitled-ontology-3#Investiga"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/neraky/ontologies/2022/5/untitled-ontology-3#LAMIC"/>
+            </owl:Restriction>
+        </rdfs:domain>
+        <rdfs:domain>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/neraky/ontologies/2022/5/untitled-ontology-3#Investiga"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/neraky/ontologies/2022/5/untitled-ontology-3#LASER"/>
+            </owl:Restriction>
+        </rdfs:domain>
+        <rdfs:domain>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/neraky/ontologies/2022/5/untitled-ontology-3#Investiga"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/neraky/ontologies/2022/5/untitled-ontology-3#LIDER"/>
+            </owl:Restriction>
+        </rdfs:domain>
+        <rdfs:domain>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/neraky/ontologies/2022/5/untitled-ontology-3#Investiga"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/neraky/ontologies/2022/5/untitled-ontology-3#LIFAE"/>
+            </owl:Restriction>
+        </rdfs:domain>
+        <rdfs:domain>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/neraky/ontologies/2022/5/untitled-ontology-3#Investiga"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/neraky/ontologies/2022/5/untitled-ontology-3#MIS"/>
+            </owl:Restriction>
+        </rdfs:domain>
+        <rdfs:domain>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/neraky/ontologies/2022/5/untitled-ontology-3#Investiga"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/neraky/ontologies/2022/5/untitled-ontology-3#MMAI"/>
+            </owl:Restriction>
+        </rdfs:domain>
+        <rdfs:domain>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/neraky/ontologies/2022/5/untitled-ontology-3#Investiga"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/neraky/ontologies/2022/5/untitled-ontology-3#MULTI"/>
+            </owl:Restriction>
+        </rdfs:domain>
+        <rdfs:domain>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/neraky/ontologies/2022/5/untitled-ontology-3#Investiga"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/neraky/ontologies/2022/5/untitled-ontology-3#NIDE"/>
+            </owl:Restriction>
+        </rdfs:domain>
+        <rdfs:domain>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/neraky/ontologies/2022/5/untitled-ontology-3#Investiga"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/neraky/ontologies/2022/5/untitled-ontology-3#REABCO"/>
+            </owl:Restriction>
+        </rdfs:domain>
+        <rdfs:domain>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/neraky/ontologies/2022/5/untitled-ontology-3#Investiga"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/neraky/ontologies/2022/5/untitled-ontology-3#TEHSICUD"/>
+            </owl:Restriction>
+        </rdfs:domain>
+        <rdfs:domain>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/neraky/ontologies/2022/5/untitled-ontology-3#Investiga"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/neraky/ontologies/2022/5/untitled-ontology-3#VIRTUS"/>
+            </owl:Restriction>
+        </rdfs:domain>
+        <rdfs:domain>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/neraky/ontologies/2022/5/untitled-ontology-3#Investiga"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/neraky/ontologies/2022/5/untitled-ontology-3#ZAITA"/>
+            </owl:Restriction>
+        </rdfs:domain>
+        <rdfs:range>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/neraky/ontologies/2022/5/untitled-ontology-3#crea_conocimiento"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/neraky/ontologies/2022/5/untitled-ontology-3#Investigacion"/>
+            </owl:Restriction>
+        </rdfs:range>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/neraky/ontologies/2022/5/untitled-ontology-3#es_investigado_por -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/neraky/ontologies/2022/5/untitled-ontology-3#es_investigado_por">
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#SymmetricProperty"/>
+        <rdfs:domain>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/neraky/ontologies/2022/5/untitled-ontology-3#es_investigado_por"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/neraky/ontologies/2022/5/untitled-ontology-3#Investigacion"/>
+            </owl:Restriction>
+        </rdfs:domain>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/neraky/ontologies/2022/5/untitled-ontology-3#se_encuentra_en -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/neraky/ontologies/2022/5/untitled-ontology-3#se_encuentra_en">
+        <rdfs:domain>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/neraky/ontologies/2022/5/untitled-ontology-3#se_encuentra_en"/>
+                <owl:allValuesFrom rdf:resource="http://www.semanticweb.org/neraky/ontologies/2022/5/untitled-ontology-3#Ingenieria"/>
+            </owl:Restriction>
+        </rdfs:domain>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Classes
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.semanticweb.org/neraky/ontologies/2022/5/untitled-ontology-3#ARCO_SES -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/neraky/ontologies/2022/5/untitled-ontology-3#ARCO_SES">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/neraky/ontologies/2022/5/untitled-ontology-3#Ingenieria"/>
+        <rdfs:comment>Adquirir el conocimiento que permita diseñar y modelar los sistemas de los ambientes económicos y sociales y que mediante los sistemas expertos, la simulación del sistema y otras técnicas derivadas, permita: identificar, definir y analizar el conocimiento necesario de los factores determinantes en las organizaciones en procura de generar las ventajas competitivas en la industria colombiana, y la sociedad en general con el fin de establecer acciones que apoyen y los desarrollen armónicamente.</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/neraky/ontologies/2022/5/untitled-ontology-3#ARQUISOFT -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/neraky/ontologies/2022/5/untitled-ontology-3#ARQUISOFT">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/neraky/ontologies/2022/5/untitled-ontology-3#Ingenieria"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/neraky/ontologies/2022/5/untitled-ontology-3#BIOINGENIRIAUD -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/neraky/ontologies/2022/5/untitled-ontology-3#BIOINGENIRIAUD">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/neraky/ontologies/2022/5/untitled-ontology-3#Ingenieria"/>
+        <rdfs:comment>Biomecánica y Biomateriales Etica y desarrollo tecnológico Informatica Médica Ingeniería Clínica Instrumentación Médica Medicina Deportiva Tecnología Ambiental Tecnología en asistencia</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/neraky/ontologies/2022/5/untitled-ontology-3#BIONANOTECNOLOGIA -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/neraky/ontologies/2022/5/untitled-ontology-3#BIONANOTECNOLOGIA">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/neraky/ontologies/2022/5/untitled-ontology-3#Ingenieria"/>
+        <rdfs:comment>El grupo de Investigación en Bionanotecnología fué creado a principios del 2001 y reconocido oficialmente por colciencias en el año 2008 donde actualmente tiene una clasificación tipo D. Las actividades del grupo se enfocan en el desarrollo de proyectos que se enmarcan en las siguientes lineas de investigación: Biomecánica y Biomateriales Etica y desarrollo tecnológico Informatica Médica Ingeniería Clínica Instrumentación Médica Medicina Deportiva Tecnología Ambiental Tecnología en asistencia En esta página encontrará información básica acerca de los objetivos e integrantes del grupo asi como lo proyectos y publicaciones que ha desarrollado desde su creación.</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/neraky/ontologies/2022/5/untitled-ontology-3#COMPLEXUD -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/neraky/ontologies/2022/5/untitled-ontology-3#COMPLEXUD">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/neraky/ontologies/2022/5/untitled-ontology-3#Ingenieria"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/neraky/ontologies/2022/5/untitled-ontology-3#DIMSI -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/neraky/ontologies/2022/5/untitled-ontology-3#DIMSI">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/neraky/ontologies/2022/5/untitled-ontology-3#Ingenieria"/>
+        <rdfs:comment>En el año 2017 DIMSI será uno de los grupos de investigación de la U.D.F.J.C. con mayor reconocimiento dentro de la ciudad-región por las pertinentes soluciones en el ámbito tecnológico aplicadas a la industria a través de un trabajo transdisciplinar con la academia y el sector Industrial.</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/neraky/ontologies/2022/5/untitled-ontology-3#ECAES_UDFI -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/neraky/ontologies/2022/5/untitled-ontology-3#ECAES_UDFI">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/neraky/ontologies/2022/5/untitled-ontology-3#Ingenieria"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/neraky/ontologies/2022/5/untitled-ontology-3#GCEM -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/neraky/ontologies/2022/5/untitled-ontology-3#GCEM">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/neraky/ontologies/2022/5/untitled-ontology-3#Ingenieria"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/neraky/ontologies/2022/5/untitled-ontology-3#GEFEM -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/neraky/ontologies/2022/5/untitled-ontology-3#GEFEM">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/neraky/ontologies/2022/5/untitled-ontology-3#Ingenieria"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/neraky/ontologies/2022/5/untitled-ontology-3#GEIT -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/neraky/ontologies/2022/5/untitled-ontology-3#GEIT">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/neraky/ontologies/2022/5/untitled-ontology-3#Ingenieria"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/neraky/ontologies/2022/5/untitled-ontology-3#GEOANALISIS -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/neraky/ontologies/2022/5/untitled-ontology-3#GEOANALISIS">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/neraky/ontologies/2022/5/untitled-ontology-3#Ingenieria"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/neraky/ontologies/2022/5/untitled-ontology-3#GESDATOS -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/neraky/ontologies/2022/5/untitled-ontology-3#GESDATOS">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/neraky/ontologies/2022/5/untitled-ontology-3#Ingenieria"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/neraky/ontologies/2022/5/untitled-ontology-3#GESETIC -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/neraky/ontologies/2022/5/untitled-ontology-3#GESETIC">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/neraky/ontologies/2022/5/untitled-ontology-3#Ingenieria"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/neraky/ontologies/2022/5/untitled-ontology-3#GICALYT -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/neraky/ontologies/2022/5/untitled-ontology-3#GICALYT">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/neraky/ontologies/2022/5/untitled-ontology-3#Ingenieria"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/neraky/ontologies/2022/5/untitled-ontology-3#GICOECOL -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/neraky/ontologies/2022/5/untitled-ontology-3#GICOECOL">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/neraky/ontologies/2022/5/untitled-ontology-3#Ingenieria"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/neraky/ontologies/2022/5/untitled-ontology-3#GICOGE -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/neraky/ontologies/2022/5/untitled-ontology-3#GICOGE">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/neraky/ontologies/2022/5/untitled-ontology-3#Ingenieria"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/neraky/ontologies/2022/5/untitled-ontology-3#GICOSO -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/neraky/ontologies/2022/5/untitled-ontology-3#GICOSO">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/neraky/ontologies/2022/5/untitled-ontology-3#Ingenieria"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/neraky/ontologies/2022/5/untitled-ontology-3#GIGA -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/neraky/ontologies/2022/5/untitled-ontology-3#GIGA">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/neraky/ontologies/2022/5/untitled-ontology-3#Ingenieria"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/neraky/ontologies/2022/5/untitled-ontology-3#GIIRA -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/neraky/ontologies/2022/5/untitled-ontology-3#GIIRA">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/neraky/ontologies/2022/5/untitled-ontology-3#Ingenieria"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/neraky/ontologies/2022/5/untitled-ontology-3#GISE3 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/neraky/ontologies/2022/5/untitled-ontology-3#GISE3">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/neraky/ontologies/2022/5/untitled-ontology-3#Ingenieria"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/neraky/ontologies/2022/5/untitled-ontology-3#GITEM -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/neraky/ontologies/2022/5/untitled-ontology-3#GITEM">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/neraky/ontologies/2022/5/untitled-ontology-3#Ingenieria"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/neraky/ontologies/2022/5/untitled-ontology-3#GITICS -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/neraky/ontologies/2022/5/untitled-ontology-3#GITICS">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/neraky/ontologies/2022/5/untitled-ontology-3#Ingenieria"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/neraky/ontologies/2022/5/untitled-ontology-3#GITUD -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/neraky/ontologies/2022/5/untitled-ontology-3#GITUD">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/neraky/ontologies/2022/5/untitled-ontology-3#Ingenieria"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/neraky/ontologies/2022/5/untitled-ontology-3#GRECO -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/neraky/ontologies/2022/5/untitled-ontology-3#GRECO">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/neraky/ontologies/2022/5/untitled-ontology-3#Ingenieria"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/neraky/ontologies/2022/5/untitled-ontology-3#Grupo -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/neraky/ontologies/2022/5/untitled-ontology-3#Grupo"/>
+    
+
+
+    <!-- http://www.semanticweb.org/neraky/ontologies/2022/5/untitled-ontology-3#IDEAS -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/neraky/ontologies/2022/5/untitled-ontology-3#IDEAS">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/neraky/ontologies/2022/5/untitled-ontology-3#Ingenieria"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/neraky/ontologies/2022/5/untitled-ontology-3#INTECSSE -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/neraky/ontologies/2022/5/untitled-ontology-3#INTECSSE">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/neraky/ontologies/2022/5/untitled-ontology-3#Ingenieria"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/neraky/ontologies/2022/5/untitled-ontology-3#INTERNET_INTELIGENTE -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/neraky/ontologies/2022/5/untitled-ontology-3#INTERNET_INTELIGENTE">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/neraky/ontologies/2022/5/untitled-ontology-3#Ingenieria"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/neraky/ontologies/2022/5/untitled-ontology-3#INVID -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/neraky/ontologies/2022/5/untitled-ontology-3#INVID">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/neraky/ontologies/2022/5/untitled-ontology-3#Ingenieria"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/neraky/ontologies/2022/5/untitled-ontology-3#Ingenieria -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/neraky/ontologies/2022/5/untitled-ontology-3#Ingenieria">
+        <owl:equivalentClass>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/neraky/ontologies/2022/5/untitled-ontology-3#crea_conocimiento"/>
+                <owl:allValuesFrom>
+                    <owl:Class>
+                        <owl:unionOf rdf:parseType="Collection">
+                            <rdf:Description rdf:about="http://www.semanticweb.org/neraky/ontologies/2022/5/untitled-ontology-3#ARCO_SES"/>
+                            <rdf:Description rdf:about="http://www.semanticweb.org/neraky/ontologies/2022/5/untitled-ontology-3#ARQUISOFT"/>
+                            <rdf:Description rdf:about="http://www.semanticweb.org/neraky/ontologies/2022/5/untitled-ontology-3#BIOINGENIRIAUD"/>
+                            <rdf:Description rdf:about="http://www.semanticweb.org/neraky/ontologies/2022/5/untitled-ontology-3#BIONANOTECNOLOGIA"/>
+                            <rdf:Description rdf:about="http://www.semanticweb.org/neraky/ontologies/2022/5/untitled-ontology-3#COMPLEXUD"/>
+                            <rdf:Description rdf:about="http://www.semanticweb.org/neraky/ontologies/2022/5/untitled-ontology-3#DIMSI"/>
+                            <rdf:Description rdf:about="http://www.semanticweb.org/neraky/ontologies/2022/5/untitled-ontology-3#ECAES_UDFI"/>
+                            <rdf:Description rdf:about="http://www.semanticweb.org/neraky/ontologies/2022/5/untitled-ontology-3#GCEM"/>
+                            <rdf:Description rdf:about="http://www.semanticweb.org/neraky/ontologies/2022/5/untitled-ontology-3#GEFEM"/>
+                            <rdf:Description rdf:about="http://www.semanticweb.org/neraky/ontologies/2022/5/untitled-ontology-3#GEIT"/>
+                            <rdf:Description rdf:about="http://www.semanticweb.org/neraky/ontologies/2022/5/untitled-ontology-3#GEOANALISIS"/>
+                            <rdf:Description rdf:about="http://www.semanticweb.org/neraky/ontologies/2022/5/untitled-ontology-3#GESDATOS"/>
+                            <rdf:Description rdf:about="http://www.semanticweb.org/neraky/ontologies/2022/5/untitled-ontology-3#GESETIC"/>
+                            <rdf:Description rdf:about="http://www.semanticweb.org/neraky/ontologies/2022/5/untitled-ontology-3#GICALYT"/>
+                            <rdf:Description rdf:about="http://www.semanticweb.org/neraky/ontologies/2022/5/untitled-ontology-3#GICOECOL"/>
+                            <rdf:Description rdf:about="http://www.semanticweb.org/neraky/ontologies/2022/5/untitled-ontology-3#GICOGE"/>
+                            <rdf:Description rdf:about="http://www.semanticweb.org/neraky/ontologies/2022/5/untitled-ontology-3#GICOSO"/>
+                            <rdf:Description rdf:about="http://www.semanticweb.org/neraky/ontologies/2022/5/untitled-ontology-3#GIGA"/>
+                            <rdf:Description rdf:about="http://www.semanticweb.org/neraky/ontologies/2022/5/untitled-ontology-3#GIIRA"/>
+                            <rdf:Description rdf:about="http://www.semanticweb.org/neraky/ontologies/2022/5/untitled-ontology-3#GISE3"/>
+                            <rdf:Description rdf:about="http://www.semanticweb.org/neraky/ontologies/2022/5/untitled-ontology-3#GITEM"/>
+                            <rdf:Description rdf:about="http://www.semanticweb.org/neraky/ontologies/2022/5/untitled-ontology-3#GITICS"/>
+                            <rdf:Description rdf:about="http://www.semanticweb.org/neraky/ontologies/2022/5/untitled-ontology-3#GITUD"/>
+                            <rdf:Description rdf:about="http://www.semanticweb.org/neraky/ontologies/2022/5/untitled-ontology-3#GRECO"/>
+                            <rdf:Description rdf:about="http://www.semanticweb.org/neraky/ontologies/2022/5/untitled-ontology-3#IDEAS"/>
+                            <rdf:Description rdf:about="http://www.semanticweb.org/neraky/ontologies/2022/5/untitled-ontology-3#INTECSSE"/>
+                            <rdf:Description rdf:about="http://www.semanticweb.org/neraky/ontologies/2022/5/untitled-ontology-3#INTERNET_INTELIGENTE"/>
+                            <rdf:Description rdf:about="http://www.semanticweb.org/neraky/ontologies/2022/5/untitled-ontology-3#INVID"/>
+                            <rdf:Description rdf:about="http://www.semanticweb.org/neraky/ontologies/2022/5/untitled-ontology-3#LAMIC"/>
+                            <rdf:Description rdf:about="http://www.semanticweb.org/neraky/ontologies/2022/5/untitled-ontology-3#LASER"/>
+                            <rdf:Description rdf:about="http://www.semanticweb.org/neraky/ontologies/2022/5/untitled-ontology-3#LIDER"/>
+                            <rdf:Description rdf:about="http://www.semanticweb.org/neraky/ontologies/2022/5/untitled-ontology-3#LIFAE"/>
+                            <rdf:Description rdf:about="http://www.semanticweb.org/neraky/ontologies/2022/5/untitled-ontology-3#MIS"/>
+                            <rdf:Description rdf:about="http://www.semanticweb.org/neraky/ontologies/2022/5/untitled-ontology-3#MMAI"/>
+                            <rdf:Description rdf:about="http://www.semanticweb.org/neraky/ontologies/2022/5/untitled-ontology-3#MULTI"/>
+                            <rdf:Description rdf:about="http://www.semanticweb.org/neraky/ontologies/2022/5/untitled-ontology-3#NIDE"/>
+                            <rdf:Description rdf:about="http://www.semanticweb.org/neraky/ontologies/2022/5/untitled-ontology-3#REABCO"/>
+                            <rdf:Description rdf:about="http://www.semanticweb.org/neraky/ontologies/2022/5/untitled-ontology-3#TEHSICUD"/>
+                            <rdf:Description rdf:about="http://www.semanticweb.org/neraky/ontologies/2022/5/untitled-ontology-3#VIRTUS"/>
+                            <rdf:Description rdf:about="http://www.semanticweb.org/neraky/ontologies/2022/5/untitled-ontology-3#ZAITA"/>
+                        </owl:unionOf>
+                    </owl:Class>
+                </owl:allValuesFrom>
+            </owl:Restriction>
+        </owl:equivalentClass>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/neraky/ontologies/2022/5/untitled-ontology-3#Investigacion"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/neraky/ontologies/2022/5/untitled-ontology-3#Investigacion -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/neraky/ontologies/2022/5/untitled-ontology-3#Investigacion">
+        <owl:equivalentClass>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/neraky/ontologies/2022/5/untitled-ontology-3#es_investigado_por"/>
+                <owl:allValuesFrom rdf:resource="http://www.semanticweb.org/neraky/ontologies/2022/5/untitled-ontology-3#Investigacion"/>
+            </owl:Restriction>
+        </owl:equivalentClass>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/neraky/ontologies/2022/5/untitled-ontology-3#Grupo"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/neraky/ontologies/2022/5/untitled-ontology-3#LAMIC -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/neraky/ontologies/2022/5/untitled-ontology-3#LAMIC">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/neraky/ontologies/2022/5/untitled-ontology-3#Ingenieria"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/neraky/ontologies/2022/5/untitled-ontology-3#LASER -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/neraky/ontologies/2022/5/untitled-ontology-3#LASER">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/neraky/ontologies/2022/5/untitled-ontology-3#Ingenieria"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/neraky/ontologies/2022/5/untitled-ontology-3#LIDER -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/neraky/ontologies/2022/5/untitled-ontology-3#LIDER">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/neraky/ontologies/2022/5/untitled-ontology-3#Ingenieria"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/neraky/ontologies/2022/5/untitled-ontology-3#LIFAE -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/neraky/ontologies/2022/5/untitled-ontology-3#LIFAE">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/neraky/ontologies/2022/5/untitled-ontology-3#Ingenieria"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/neraky/ontologies/2022/5/untitled-ontology-3#MIS -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/neraky/ontologies/2022/5/untitled-ontology-3#MIS">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/neraky/ontologies/2022/5/untitled-ontology-3#Ingenieria"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/neraky/ontologies/2022/5/untitled-ontology-3#MMAI -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/neraky/ontologies/2022/5/untitled-ontology-3#MMAI">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/neraky/ontologies/2022/5/untitled-ontology-3#Ingenieria"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/neraky/ontologies/2022/5/untitled-ontology-3#MULTI -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/neraky/ontologies/2022/5/untitled-ontology-3#MULTI">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/neraky/ontologies/2022/5/untitled-ontology-3#Ingenieria"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/neraky/ontologies/2022/5/untitled-ontology-3#NIDE -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/neraky/ontologies/2022/5/untitled-ontology-3#NIDE">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/neraky/ontologies/2022/5/untitled-ontology-3#Ingenieria"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/neraky/ontologies/2022/5/untitled-ontology-3#REABCO -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/neraky/ontologies/2022/5/untitled-ontology-3#REABCO">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/neraky/ontologies/2022/5/untitled-ontology-3#Ingenieria"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/neraky/ontologies/2022/5/untitled-ontology-3#TEHSICUD -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/neraky/ontologies/2022/5/untitled-ontology-3#TEHSICUD">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/neraky/ontologies/2022/5/untitled-ontology-3#Ingenieria"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/neraky/ontologies/2022/5/untitled-ontology-3#Trabajo -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/neraky/ontologies/2022/5/untitled-ontology-3#Trabajo">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/neraky/ontologies/2022/5/untitled-ontology-3#Grupo"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/neraky/ontologies/2022/5/untitled-ontology-3#VIRTUS -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/neraky/ontologies/2022/5/untitled-ontology-3#VIRTUS">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/neraky/ontologies/2022/5/untitled-ontology-3#Ingenieria"/>
+        <rdfs:comment>El Grupo de investigación interinstitucional en ambientes virtuales de aprendizaje &quot;Virtus&quot; es una organización avalada por la Escuela Tecnológica Instituto Técnico Central y la Universidad Distrital Francisco José de Caldas, dos instituciones de educación superior públicas, ubicadas en Bogotá, Colombia. El grupo hace investigación en seis líneas: Ambientes y Herramientas Virtuales de Aprendizaje. Tecnología Educativa. Sistemas Adaptativos y Sistemas Recomendadores. Gamificación y Videojuegos. Ingeniería Web. Gestión del Conocimiento y su Aplicación Organizacional.</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/neraky/ontologies/2022/5/untitled-ontology-3#ZAITA -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/neraky/ontologies/2022/5/untitled-ontology-3#ZAITA">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/neraky/ontologies/2022/5/untitled-ontology-3#Ingenieria"/>
+    </owl:Class>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // General axioms
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    <rdf:Description>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AllDisjointClasses"/>
+        <owl:members rdf:parseType="Collection">
+            <rdf:Description rdf:about="http://www.semanticweb.org/neraky/ontologies/2022/5/untitled-ontology-3#ARCO_SES"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/neraky/ontologies/2022/5/untitled-ontology-3#ARQUISOFT"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/neraky/ontologies/2022/5/untitled-ontology-3#BIOINGENIRIAUD"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/neraky/ontologies/2022/5/untitled-ontology-3#BIONANOTECNOLOGIA"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/neraky/ontologies/2022/5/untitled-ontology-3#COMPLEXUD"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/neraky/ontologies/2022/5/untitled-ontology-3#DIMSI"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/neraky/ontologies/2022/5/untitled-ontology-3#ECAES_UDFI"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/neraky/ontologies/2022/5/untitled-ontology-3#GCEM"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/neraky/ontologies/2022/5/untitled-ontology-3#GEFEM"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/neraky/ontologies/2022/5/untitled-ontology-3#GEIT"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/neraky/ontologies/2022/5/untitled-ontology-3#GEOANALISIS"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/neraky/ontologies/2022/5/untitled-ontology-3#GESDATOS"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/neraky/ontologies/2022/5/untitled-ontology-3#GESETIC"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/neraky/ontologies/2022/5/untitled-ontology-3#GICALYT"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/neraky/ontologies/2022/5/untitled-ontology-3#GICOECOL"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/neraky/ontologies/2022/5/untitled-ontology-3#GICOGE"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/neraky/ontologies/2022/5/untitled-ontology-3#GICOSO"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/neraky/ontologies/2022/5/untitled-ontology-3#GIGA"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/neraky/ontologies/2022/5/untitled-ontology-3#GIIRA"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/neraky/ontologies/2022/5/untitled-ontology-3#GISE3"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/neraky/ontologies/2022/5/untitled-ontology-3#GITEM"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/neraky/ontologies/2022/5/untitled-ontology-3#GITICS"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/neraky/ontologies/2022/5/untitled-ontology-3#GITUD"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/neraky/ontologies/2022/5/untitled-ontology-3#GRECO"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/neraky/ontologies/2022/5/untitled-ontology-3#IDEAS"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/neraky/ontologies/2022/5/untitled-ontology-3#INTECSSE"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/neraky/ontologies/2022/5/untitled-ontology-3#INTERNET_INTELIGENTE"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/neraky/ontologies/2022/5/untitled-ontology-3#INVID"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/neraky/ontologies/2022/5/untitled-ontology-3#LAMIC"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/neraky/ontologies/2022/5/untitled-ontology-3#LASER"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/neraky/ontologies/2022/5/untitled-ontology-3#LIDER"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/neraky/ontologies/2022/5/untitled-ontology-3#LIFAE"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/neraky/ontologies/2022/5/untitled-ontology-3#MIS"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/neraky/ontologies/2022/5/untitled-ontology-3#MMAI"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/neraky/ontologies/2022/5/untitled-ontology-3#MULTI"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/neraky/ontologies/2022/5/untitled-ontology-3#NIDE"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/neraky/ontologies/2022/5/untitled-ontology-3#REABCO"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/neraky/ontologies/2022/5/untitled-ontology-3#TEHSICUD"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/neraky/ontologies/2022/5/untitled-ontology-3#VIRTUS"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/neraky/ontologies/2022/5/untitled-ontology-3#ZAITA"/>
+        </owl:members>
+    </rdf:Description>
+    <rdf:Description>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AllDisjointClasses"/>
+        <owl:members rdf:parseType="Collection">
+            <rdf:Description rdf:about="http://www.semanticweb.org/neraky/ontologies/2022/5/untitled-ontology-3#BIOINGENIRIAUD"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/neraky/ontologies/2022/5/untitled-ontology-3#BIONANOTECNOLOGIA"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/neraky/ontologies/2022/5/untitled-ontology-3#DIMSI"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/neraky/ontologies/2022/5/untitled-ontology-3#ECAES_UDFI"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/neraky/ontologies/2022/5/untitled-ontology-3#GEFEM"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/neraky/ontologies/2022/5/untitled-ontology-3#GEOANALISIS"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/neraky/ontologies/2022/5/untitled-ontology-3#GESDATOS"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/neraky/ontologies/2022/5/untitled-ontology-3#GICOECOL"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/neraky/ontologies/2022/5/untitled-ontology-3#GICOSO"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/neraky/ontologies/2022/5/untitled-ontology-3#VIRTUS"/>
+        </owl:members>
+    </rdf:Description>
+    <rdf:Description>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AllDisjointClasses"/>
+        <owl:members rdf:parseType="Collection">
+            <rdf:Description rdf:about="http://www.semanticweb.org/neraky/ontologies/2022/5/untitled-ontology-3#BIOINGENIRIAUD"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/neraky/ontologies/2022/5/untitled-ontology-3#DIMSI"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/neraky/ontologies/2022/5/untitled-ontology-3#ECAES_UDFI"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/neraky/ontologies/2022/5/untitled-ontology-3#GEFEM"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/neraky/ontologies/2022/5/untitled-ontology-3#GEOANALISIS"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/neraky/ontologies/2022/5/untitled-ontology-3#GESDATOS"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/neraky/ontologies/2022/5/untitled-ontology-3#GICOECOL"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/neraky/ontologies/2022/5/untitled-ontology-3#GICOSO"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/neraky/ontologies/2022/5/untitled-ontology-3#VIRTUS"/>
+        </owl:members>
+    </rdf:Description>
+    <rdf:Description>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AllDisjointClasses"/>
+        <owl:members rdf:parseType="Collection">
+            <rdf:Description rdf:about="http://www.semanticweb.org/neraky/ontologies/2022/5/untitled-ontology-3#BIONANOTECNOLOGIA"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/neraky/ontologies/2022/5/untitled-ontology-3#DIMSI"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/neraky/ontologies/2022/5/untitled-ontology-3#ECAES_UDFI"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/neraky/ontologies/2022/5/untitled-ontology-3#GEFEM"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/neraky/ontologies/2022/5/untitled-ontology-3#GEOANALISIS"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/neraky/ontologies/2022/5/untitled-ontology-3#GESDATOS"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/neraky/ontologies/2022/5/untitled-ontology-3#GICOECOL"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/neraky/ontologies/2022/5/untitled-ontology-3#GICOSO"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/neraky/ontologies/2022/5/untitled-ontology-3#VIRTUS"/>
+        </owl:members>
+    </rdf:Description>
+</rdf:RDF>
+
+
+
+<!-- Generated by the OWL API (version 4.5.9.2019-02-01T07:24:44Z) https://github.com/owlcs/owlapi -->
+

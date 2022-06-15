@@ -109,7 +109,8 @@
       <workItem from="1654885552449" duration="913000" />
       <workItem from="1655186247564" duration="4627000" />
       <workItem from="1655259295105" duration="683000" />
-      <workItem from="1655284869416" duration="321000" />
+      <workItem from="1655284869416" duration="697000" />
+      <workItem from="1655292997449" duration="54000" />
     </task>
     <task id="LOCAL-00001" summary="Se organiza el repositorio y se crea proyecto wine dataset">
       <created>1654834630587</created>
@@ -195,7 +196,14 @@
       <option name="project" value="LOCAL" />
       <updated>1655259377909</updated>
     </task>
-    <option name="localTasksCounter" value="13" />
+    <task id="LOCAL-00013" summary="Se agrega el ejercicio de cadenas causales">
+      <created>1655285283512</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1655285283512</updated>
+    </task>
+    <option name="localTasksCounter" value="14" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -225,7 +233,8 @@
     <MESSAGE value="Se finaliza el ejercicio de algoritmo J48" />
     <MESSAGE value="Se imprime el arbol de wine dataset" />
     <MESSAGE value="Se realiza el ejercicio de deteccion de bordes" />
-    <option name="LAST_COMMIT_MESSAGE" value="Se realiza el ejercicio de deteccion de bordes" />
+    <MESSAGE value="Se agrega el ejercicio de cadenas causales" />
+    <option name="LAST_COMMIT_MESSAGE" value="Se agrega el ejercicio de cadenas causales" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/IA2$IA2.coverage" NAME="IA2 Coverage Results" MODIFIED="1654845509558" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
