@@ -1,7 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="1b01920e-0f86-49f4-a41e-f38a31379b64" name="Default Changelist" comment="" />
+    <list default="true" id="1b01920e-0f86-49f4-a41e-f38a31379b64" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -106,6 +108,8 @@
       <workItem from="1654852847691" duration="1606000" />
       <workItem from="1654885552449" duration="913000" />
       <workItem from="1655186247564" duration="4627000" />
+      <workItem from="1655259295105" duration="683000" />
+      <workItem from="1655284869416" duration="321000" />
     </task>
     <task id="LOCAL-00001" summary="Se organiza el repositorio y se crea proyecto wine dataset">
       <created>1654834630587</created>
@@ -184,7 +188,14 @@
       <option name="project" value="LOCAL" />
       <updated>1655237645052</updated>
     </task>
-    <option name="localTasksCounter" value="12" />
+    <task id="LOCAL-00012" summary="Se realiza el ejercicio de deteccion de bordes">
+      <created>1655259377909</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1655259377909</updated>
+    </task>
+    <option name="localTasksCounter" value="13" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -213,7 +224,8 @@
     <MESSAGE value="Se hace la validacion cruzada y la validacion por reescritura" />
     <MESSAGE value="Se finaliza el ejercicio de algoritmo J48" />
     <MESSAGE value="Se imprime el arbol de wine dataset" />
-    <option name="LAST_COMMIT_MESSAGE" value="Se imprime el arbol de wine dataset" />
+    <MESSAGE value="Se realiza el ejercicio de deteccion de bordes" />
+    <option name="LAST_COMMIT_MESSAGE" value="Se realiza el ejercicio de deteccion de bordes" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/IA2$IA2.coverage" NAME="IA2 Coverage Results" MODIFIED="1654845509558" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
