@@ -74,30 +74,30 @@ title('Grupo Kernel realce de Bordes');
 display('_______________________________________________')
 
 sonicbn_horizontal = rgb2gray(horizontalEdgeImageSonic);
-display('Entropia local sonic horizontal=')
+display('Entropia sonic horizontal=')
 display(entropy(sonicbn_horizontal))
 
 sonicbn_vertical = rgb2gray(verticalEdgeImageSonic);
-display('Entropia local sonic vertical=')
+display('Entropia sonic vertical=')
 display(entropy(sonicbn_vertical))
 
 sonicbn_enhance = rgb2gray(EnhanceEdgesImageSonic);
-display('Entropia local sonic realce bordes=')
+display('Entropia sonic realce bordes=')
 display(entropy(sonicbn_enhance))
 
 display('_______________________________________________')
 
 
 grupobn_horizontal = rgb2gray(horizontalEdgeImageGrupo);
-display('Entropia local grupo horizontal=')
+display('Entropia grupo horizontal=')
 display(entropy(grupobn_horizontal))
 
 grupobn_vertical = rgb2gray(verticalEdgeImageGrupo);
-display('Entropia local grupo vertical=')
+display('Entropia grupo vertical=')
 display(entropy(grupobn_vertical))
 
 grupobn_enhance = rgb2gray(EnhanceEdgesImageGrupo);
-display('Entropia local grupo realce bordes=')
+display('Entropia grupo realce bordes=')
 display(entropy(grupobn_enhance))
 
 function f=aplicarkernel(image, kernel)
